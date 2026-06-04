@@ -1,10 +1,10 @@
 import streamlit as st
 
 # Import các hàm vẽ đồ thị từ các file con
-from Cau1 import get_fig_cau1
-from Cau2 import get_fig_cau2
-from Cau3 import get_fig_cau3
-from Cau4 import get_fig_cau4
+from Topic1 import get_fig_cau1
+from Topic1 import get_fig_cau2
+from Topic1 import get_fig_cau3
+from Topic1 import get_fig_cau4
 
 # Cấu hình trang web
 st.set_page_config(page_title="Đồ án Giải tích - Vẽ Hình", layout="wide")
