@@ -2,9 +2,9 @@
 
 ## 📌 giới thiệu chung
 
-Chào mừng bạn đến với project mô phỏng đồ họa Toán học! Project này được xây dựng bằng Python nhằm mục đích trực quan hóa các vật thể 3D, các mặt cong, đường cong giao tuyến và các miền phẳng 2D phục vụ cho Bài tập lớn môn Toán / Giải tích 2.
+Chào mừng bạn đến với project mô phỏng đồ họa Toán học! Project này được xây dựng bằng Python nhằm mục đích trực quan hóa các vật thể 3D, các mặt cong, đường cong giao tuyến và các miền phẳng 2D.
 
-Dự án sử dụng **Streamlit** để tạo giao diện Web App thân thiện và **Plotly** để kết xuất đồ họa tương tác mượt mà.
+Dự án sử dụng **Streamlit** để tạo giao diện Web App thân thiện, **Plotly** để kết xuất đồ họa tương tác mượt mà và **NumPy** để xử lý các phép tính toán học phức tạp.
 
 ## ✨ Tính năng nổi bật
 
@@ -19,11 +19,11 @@ Dự án sử dụng **Streamlit** để tạo giao diện Web App thân thiện
 
 ```text
 ├── main.py       # File chạy chính, chứa giao diện Streamlit và hàm xử lý trục tọa độ
-├── requirements.txt # Danh sách các thư viện cần cài đặt (Streamlit, Plotly, NumPy)
+├── requirements.txt # Danh sách các thư viện cần cài đặt
 ├── topic1.py     # Chứa logic và hàm vẽ đồ thị cho 4 câu của Đề tài 1
 ├── topic2.py     # Chứa logic và hàm vẽ đồ thị cho 4 câu của Đề tài 2
 ├── topic3.py     # Chứa logic và hàm vẽ đồ thị cho 4 câu của Đề tài 3
-└── README.md     # Tài liệu hướng dẫn (File này)
+└── README.md     # Tài liệu hướng dẫn
 ```
 
 ## 🛠️ Hướng dẫn cài đặt
