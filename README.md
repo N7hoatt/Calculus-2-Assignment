@@ -1,10 +1,10 @@
 # 🧮 Project Minh họa Tích phân trong Không gian - Giải Tích 2
 
+## 📌 giới thiệu chung
+
 Chào mừng bạn đến với project mô phỏng đồ họa Toán học! Project này được xây dựng bằng Python nhằm mục đích trực quan hóa các vật thể 3D, các mặt cong, đường cong giao tuyến và các miền phẳng 2D phục vụ cho Bài tập lớn môn Toán / Giải tích 2.
 
 Dự án sử dụng **Streamlit** để tạo giao diện Web App thân thiện và **Plotly** để kết xuất đồ họa tương tác mượt mà.
-
----
 
 ## ✨ Tính năng nổi bật
 
@@ -13,11 +13,7 @@ Dự án sử dụng **Streamlit** để tạo giao diện Web App thân thiện
 * **Hệ trục tọa độ chuẩn mực:** Tự động mô phỏng các trục tọa độ Ox (Đỏ), Oy (Xanh lá), Oz (Xanh dương) đâm xuyên qua gốc tọa độ kèm theo mũi tên chỉ chiều dương.
 * **Tổ chức code Module hóa:** Logic toán học được tách riêng vào các file `topic` riêng biệt, giúp dễ dàng mở rộng và bảo trì.
 
----
-
 ## 📂 Cấu trúc thư mục
-
-Project được thiết kế với cấu trúc tối giản và rõ ràng:
 
 ```text
 ├── main.py       # File chạy chính, chứa giao diện Streamlit và hàm xử lý trục tọa độ
@@ -27,8 +23,6 @@ Project được thiết kế với cấu trúc tối giản và rõ ràng:
 ├── topic3.py     # Chứa logic và hàm vẽ đồ thị cho 4 câu của Đề tài 3
 └── README.md     # Tài liệu hướng dẫn (File này)
 ```
-
----
 
 ## 🛠️ Hướng dẫn cài đặt
 
@@ -42,8 +36,6 @@ Project được thiết kế với cấu trúc tối giản và rõ ràng:
 ```bash
 pip install -r requirements.txt
 ```
-
----
 
 ## 🚀 Hướng dẫn sử dụng
 
@@ -63,5 +55,3 @@ python -m streamlit run main.py
    * **Chuột trái + Kéo:** Để xoay đồ thị theo nhiều góc nhìn.
    * **Con lăn chuột:** Để phóng to / thu nhỏ.
    * **Biểu tượng Camera (Góc trên bên phải đồ thị):** Nhấn vào đây để tải hình ảnh dưới dạng file PNG chất lượng cao, có thể chèn trực tiếp vào báo cáo.
-
----
