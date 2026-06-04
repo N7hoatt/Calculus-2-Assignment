@@ -30,9 +30,23 @@ Dự án sử dụng **Streamlit** để tạo giao diện Web App thân thiện
 
 Để chạy được project này, máy tính của bạn cần được cài đặt sẵn **Python 3**. Thực hiện theo các bước sau:
 
-**Bước 1:** Clone hoặc tải toàn bộ thư mục mã nguồn về máy tính.
+**Bước 1:** Clone hoặc tải toàn bộ thư mục mã nguồn về máy tính:
+```bash
+git clone https://github.com/N7hoatt/Calculus-2-Assignment.git
+cd Calculus-2-Assignment
+```
 
-**Bước 2:** Mở Terminal (Command Prompt / PowerShell) tại thư mục chứa mã nguồn.
+**Bước 2:** Khởi tạo và kích hoạt môi trường ảo (Virtual Environment):
+* Đối với Windows:
+```bash
+python -m venv .venv
+.\.venv\Scripts\activate
+```
+* Đối với macOS / Linux:
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
 
 **Bước 3:** Cài đặt các thư viện cần thiết bằng lệnh pip:
 ```bash
