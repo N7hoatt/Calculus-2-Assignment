@@ -1,8 +1,8 @@
 import streamlit as st
 
-from topic1 import get_fig_t1_cau1, get_fig_t1_cau2, get_fig_t1_cau3, get_fig_t1_cau4
-from topic2 import get_fig_t2_cau1, get_fig_t2_cau2, get_fig_t2_cau3, get_fig_t2_cau4
-from topic3 import get_fig_t3_cau1, get_fig_t3_cau2, get_fig_t3_cau3, get_fig_t3_cau4
+from Topic1 import get_fig_t1_cau1, get_fig_t1_cau2, get_fig_t1_cau3, get_fig_t1_cau4
+from Topic2 import get_fig_t2_cau1, get_fig_t2_cau2, get_fig_t2_cau3, get_fig_t2_cau4
+from Topic3 import get_fig_t3_cau1, get_fig_t3_cau2, get_fig_t3_cau3, get_fig_t3_cau4
 
 st.set_page_config(page_title="Đồ án Giải tích", layout="wide")
 
