@@ -8,10 +8,12 @@ Dự án sử dụng **Streamlit** để tạo giao diện Web App thân thiện
 
 ## ✨ Tính năng nổi bật
 
-* **Tương tác 3D toàn diện:** Cho phép người dùng dùng chuột để xoay đa chiều, thu phóng (zoom) và trỏ chuột (hover) để xem tọa độ chính xác của từng điểm trên mặt cong.
-* **Giao diện Web trực quan:** Menu bên trái dạng sidebar giúp chuyển đổi qua lại giữa các Đề tài và Câu hỏi chỉ với một cú click chuột.
-* **Hệ trục tọa độ chuẩn mực:** Tự động mô phỏng các trục tọa độ Ox (Đỏ), Oy (Xanh lá), Oz (Xanh dương) đâm xuyên qua gốc tọa độ kèm theo mũi tên chỉ chiều dương.
-* **Tổ chức code Module hóa:** Logic toán học được tách riêng vào các file `topic` riêng biệt, giúp dễ dàng mở rộng và bảo trì.
+| Tính năng                    | Mô tả chi tiết                                                                                                                              |
+| :--------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Tương tác 3D toàn diện**   | Cho phép người dùng dùng chuột để xoay đa chiều, thu phóng (zoom) và trỏ chuột (hover) để xem tọa độ chính xác của từng điểm trên mặt cong. |
+| **Giao diện Web trực quan**  | Menu bên trái dạng sidebar giúp chuyển đổi qua lại giữa các Đề tài và Câu hỏi chỉ với một cú click chuột.                                   |
+| **Hệ trục tọa độ chuẩn mực** | Tự động mô phỏng các trục tọa độ Ox (Đỏ), Oy (Xanh lá), Oz (Xanh dương) đâm xuyên qua gốc tọa độ kèm theo mũi tên chỉ chiều dương.          |
+| **Tổ chức code Module hóa**  | Logic toán học được tách riêng vào các file `topic` riêng biệt, giúp dễ dàng mở rộng và bảo trì.                                            |
 
 ## 📂 Cấu trúc thư mục
 
